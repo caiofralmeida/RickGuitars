@@ -2,8 +2,8 @@ package com.company.model.type;
 
 public enum Style {
 
-    LIGHT("Light"),
-    BLACK("Black");
+    A("A"),
+    F("F");
 
     private String style;
 

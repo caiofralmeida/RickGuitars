@@ -30,27 +30,15 @@ public class GuitarSpec extends InstrumentSpec {
 
     public boolean matches(GuitarSpec guitarSpec) {
 
+        if (!super.matches(guitarSpec)) {
+            return false;
+        }
+
         if (this.getNumStrings() != guitarSpec.getNumStrings()) {
             return false;
         }
 
-        if (this.getBackWood() != guitarSpec.getBackWood()) {
-            return false;
-        }
-
-        if (this.getTopWood() != guitarSpec.getTopWood()) {
-            return false;
-        }
-
-        if (this.getBuilder() != guitarSpec.getBuilder()) {
-            return false;
-        }
-
-        if (this.getModel() != guitarSpec.getModel()) {
-            return false;
-        }
-
-        if (this.getType() != guitarSpec.getType()) {
+        if (!(guitarSpec instanceof GuitarSpec)) {
             return false;
         }
 

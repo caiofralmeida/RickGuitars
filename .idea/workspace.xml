@@ -12,10 +12,10 @@
     <file path="/Builder.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392558831664" ignored="false" />
     <file path="/Type.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392558412997" ignored="false" />
     <file path="/Wood.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392558975440" ignored="false" />
-    <file path="/GuitarSpec.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392561938392" ignored="false" />
-    <file path="/MandolinSpec.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392562521418" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392562540840" ignored="false" />
-    <file path="/Style.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392559660437" ignored="false" />
+    <file path="/GuitarSpec.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392563385941" ignored="false" />
+    <file path="/MandolinSpec.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392563399577" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392563427431" ignored="false" />
+    <file path="/Style.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392563221734" ignored="false" />
     <file path="/TypeTest.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392560298725" ignored="false" />
     <file path="/BuilderTest.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392560642608" ignored="false" />
     <file path="/WoodTest.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392560864890" ignored="false" />
@@ -92,7 +92,7 @@
       <file leaf-file-name="InstrumentSpec.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/InstrumentSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+            <state line="58" column="44" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,7 +103,7 @@
       <file leaf-file-name="GuitarSpec.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/GuitarSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+            <state line="31" column="24" selection-start="713" selection-end="791" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +114,16 @@
       <file leaf-file-name="MandolinSpec.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/MandolinSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="42" selection-start="76" selection-end="76" vertical-scroll-proportion="0.046195652">
+            <state line="27" column="9" selection-start="567" selection-end="567" vertical-scroll-proportion="0.9076087">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Style.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/type/Style.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="5" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,8 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/instrument/Guitar.java" />
-        <option value="$PROJECT_DIR$/src/com/company/instrument/Mandolin.java" />
         <option value="$PROJECT_DIR$/src/com/company/type/Type.java" />
         <option value="$PROJECT_DIR$/src/com/company/instrument/InstrumentSpec.java" />
         <option value="$PROJECT_DIR$/src/com/company/type/Builder.java" />
@@ -162,8 +169,10 @@
         <option value="$PROJECT_DIR$/src/com/company/tests/type/Builder.java" />
         <option value="$PROJECT_DIR$/src/com/company/tests/type/BuilderTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/tests/type/WoodTest.java" />
-        <option value="$PROJECT_DIR$/src/com/company/model/instrument/GuitarSpec.java" />
         <option value="$PROJECT_DIR$/src/com/company/tests/instrument/GuitarSpecTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/type/Style.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/instrument/InstrumentSpec.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/instrument/GuitarSpec.java" />
         <option value="$PROJECT_DIR$/src/com/company/model/instrument/MandolinSpec.java" />
       </list>
     </option>
@@ -308,6 +317,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="type" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,7 +585,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -694,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/model/type/Style.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="9" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/tests/type/TypeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="22" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
@@ -737,9 +743,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/type/Style.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/InstrumentSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+        <state line="58" column="44" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -748,7 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/GuitarSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+        <state line="31" column="24" selection-start="713" selection-end="791" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -757,7 +770,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/MandolinSpec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="76" selection-end="76" vertical-scroll-proportion="0.046195652">
+        <state line="27" column="9" selection-start="567" selection-end="567" vertical-scroll-proportion="0.9076087">
           <folding />
         </state>
       </provider>

@@ -35,6 +35,26 @@ public class InstrumentSpec {
     }
 
     public boolean matches(InstrumentSpec instrumentSpec) {
+        if (this.getBackWood() != instrumentSpec.getBackWood()) {
+            return false;
+        }
+
+        if (this.getTopWood() != instrumentSpec.getTopWood()) {
+            return false;
+        }
+
+        if (this.getBuilder() != instrumentSpec.getBuilder()) {
+            return false;
+        }
+
+        if (this.getModel() != instrumentSpec.getModel()) {
+            return false;
+        }
+
+        if (this.getType() != instrumentSpec.getType()) {
+            return false;
+        }
+
         return true;
     }
 }

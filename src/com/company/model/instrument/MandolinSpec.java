@@ -11,27 +11,16 @@ public class MandolinSpec extends InstrumentSpec {
     }
 
     public boolean matches(MandolinSpec mandolinSpec) {
+
+        if (!super.matches(mandolinSpec)) {
+            return false;
+        }
+
+        if(!(mandolinSpec instanceof MandolinSpec)) {
+            return false;
+        }
+
         if (this.getStyle() != mandolinSpec.getStyle()) {
-            return false;
-        }
-
-        if (this.getBackWood() != mandolinSpec.getBackWood()) {
-            return false;
-        }
-
-        if (this.getTopWood() != mandolinSpec.getTopWood()) {
-            return false;
-        }
-
-        if (this.getBuilder() != mandolinSpec.getBuilder()) {
-            return false;
-        }
-
-        if (this.getModel() != mandolinSpec.getModel()) {
-            return false;
-        }
-
-        if (this.getType() != mandolinSpec.getType()) {
             return false;
         }
 

@@ -12,8 +12,15 @@
     <file path="/Builder.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392558831664" ignored="false" />
     <file path="/Type.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392558412997" ignored="false" />
     <file path="/Wood.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392558975440" ignored="false" />
-    <file path="/GuitarSpec.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392559036726" ignored="false" />
-    <file path="/MandolinSpec.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392559058074" ignored="false" />
+    <file path="/GuitarSpec.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392561938392" ignored="false" />
+    <file path="/MandolinSpec.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392562521418" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392562540840" ignored="false" />
+    <file path="/Style.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392559660437" ignored="false" />
+    <file path="/TypeTest.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392560298725" ignored="false" />
+    <file path="/BuilderTest.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392560642608" ignored="false" />
+    <file path="/WoodTest.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392560864890" ignored="false" />
+    <file path="/fragment.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392560965729" ignored="false" />
+    <file path="/GuitarSpecTest.java" changelist="4c20f2d3-d4d8-4b7d-9917-6e32b2ad241c" time="1392562336163" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,46 +80,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Instrument.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/instrument/Instrument.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/Instrument.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="44" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Guitar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/instrument/Guitar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="39" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mandolin.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/instrument/Mandolin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="41" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+            <state line="8" column="44" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="InstrumentSpec.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/instrument/InstrumentSpec.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/InstrumentSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="30" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+            <state line="14" column="30" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -121,46 +101,32 @@
         </entry>
       </file>
       <file leaf-file-name="GuitarSpec.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/instrument/GuitarSpec.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/GuitarSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="47" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="17" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MandolinSpec.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/instrument/MandolinSpec.java">
+        <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/MandolinSpec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="49" selection-start="85" selection-end="85" vertical-scroll-proportion="0.094444446">
+            <state line="3" column="42" selection-start="76" selection-end="76" vertical-scroll-proportion="0.046195652">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Builder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/type/Builder.java">
+      <file leaf-file-name="GuitarSpecTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/tests/instrument/GuitarSpecTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Type.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/type/Type.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="87" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wood.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/type/Wood.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="133" column="19" selection-start="3356" selection-end="3356" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/instrument/Instrument.java" />
         <option value="$PROJECT_DIR$/src/com/company/instrument/Guitar.java" />
         <option value="$PROJECT_DIR$/src/com/company/instrument/Mandolin.java" />
         <option value="$PROJECT_DIR$/src/com/company/type/Type.java" />
@@ -191,7 +156,15 @@
         <option value="$PROJECT_DIR$/src/com/company/type/Builder.java" />
         <option value="$PROJECT_DIR$/src/com/company/type/Wood.java" />
         <option value="$PROJECT_DIR$/src/com/company/instrument/GuitarSpec.java" />
+        <option value="$PROJECT_DIR$/src/com/company/type/Style.java" />
         <option value="$PROJECT_DIR$/src/com/company/instrument/MandolinSpec.java" />
+        <option value="$PROJECT_DIR$/src/com/company/tests/type/TypeTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/tests/type/Builder.java" />
+        <option value="$PROJECT_DIR$/src/com/company/tests/type/BuilderTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/tests/type/WoodTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/instrument/GuitarSpec.java" />
+        <option value="$PROJECT_DIR$/src/com/company/tests/instrument/GuitarSpecTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/model/instrument/MandolinSpec.java" />
       </list>
     </option>
   </component>
@@ -282,6 +255,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="type" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -304,6 +281,58 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instrument" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RickGuitars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RickGuitars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RickGuitars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RickGuitars" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="instrument" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -314,32 +343,135 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="vcs.Git" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="last_opened_file_path" value="C:/Junit/junit-4.11.jar!/" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.company.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GuitarSpecTest">
+    <configuration default="false" name="TypeTest.testPassandoTodosTiposDeGuitarras" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RickGuitars" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.tests.type" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.type.TypeTest" />
+      <option name="METHOD_NAME" value="testPassandoTodosTiposDeGuitarras" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="RickGuitars" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
       <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BuilderTest.testPassandoTodosOsFabricantes" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RickGuitars" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.tests.type" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.type.BuilderTest" />
+      <option name="METHOD_NAME" value="testPassandoTodosOsFabricantes" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="WoodTest.testPassandoTodosOsTiposDeMadeira" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RickGuitars" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.tests.type" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.type.WoodTest" />
+      <option name="METHOD_NAME" value="testPassandoTodosOsTiposDeMadeira" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GuitarSpecTest.testMatchesPassandoModeloIncorreto" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RickGuitars" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.tests.instrument" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.instrument.GuitarSpecTest" />
+      <option name="METHOD_NAME" value="testMatchesPassandoModeloIncorreto" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GuitarSpecTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="RickGuitars" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.tests.instrument" />
+      <option name="MAIN_CLASS_NAME" value="com.company.tests.instrument.GuitarSpecTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -359,9 +491,42 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TypeTest.testPassandoTodosTiposDeGuitarras" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BuilderTest.testPassandoTodosOsFabricantes" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WoodTest.testPassandoTodosOsTiposDeMadeira" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GuitarSpecTest.testMatchesPassandoModeloIncorreto" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GuitarSpecTest" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GuitarSpecTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GuitarSpecTest.testMatchesPassandoModeloIncorreto" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WoodTest.testPassandoTodosOsTiposDeMadeira" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BuilderTest.testPassandoTodosOsFabricantes" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TypeTest.testPassandoTodosTiposDeGuitarras" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
@@ -401,12 +566,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -474,38 +640,35 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/type/Wood.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/type/Wood.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="29" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/type/Type.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/type/Type.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="87" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="32" selection-end="32" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/type/Builder.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/Mandolin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+        <state line="2" column="41" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/instrument/Mandolin.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/Guitar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="41" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/instrument/Guitar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="39" selection-start="72" selection-end="72" vertical-scroll-proportion="0.0">
+        <state line="2" column="39" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -517,36 +680,163 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/instrument/Instrument.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="44" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+        <state line="8" column="44" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/instrument/InstrumentSpec.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/type/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+        <state line="21" column="5" selection-start="223" selection-end="377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/type/Style.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="9" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/tests/type/TypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/instrument/GuitarSpec.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/tests/type/BuilderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+        <state line="30" column="40" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/tests/type/WoodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="24" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/tests/instrument/GuitarSpecTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="133" column="19" selection-start="3356" selection-end="3356" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/InstrumentSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/GuitarSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/model/instrument/MandolinSpec.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="42" selection-start="76" selection-end="76" vertical-scroll-proportion="0.046195652">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/instrument/MandolinSpec.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="49" selection-start="85" selection-end="85" vertical-scroll-proportion="0.094444446">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>RickGuitars</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit-4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

@@ -1,8 +1,8 @@
-package com.company.instrument;
+package com.company.model.instrument;
 
-import com.company.type.Builder;
-import com.company.type.Type;
-import com.company.type.Wood;
+import com.company.model.type.Builder;
+import com.company.model.type.Type;
+import com.company.model.type.Wood;
 
 public class InstrumentSpec {
 

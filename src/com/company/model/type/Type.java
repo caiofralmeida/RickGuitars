@@ -1,4 +1,4 @@
-package com.company.type;
+package com.company.model.type;
 
 public enum Type {
     ELETRIC("Eletric"),

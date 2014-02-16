@@ -36,7 +36,7 @@ public class GuitarSpecTest extends TestCase {
           );
 
           assertFalse(
-              guitarSpec.matches(guitarSpecCompare)
+                  guitarSpec.matches(guitarSpecCompare)
           );
     }
 

@@ -16,11 +16,7 @@ public class GuitarSpec extends InstrumentSpec {
         Builder builder,
         int numStrings
     ) {
-        this.model = model;
-        this.type = type;
-        this.topWood = topWood;
-        this.backWood = backWood;
-        this.builder = builder;
+        super(model, type, topWood, backWood, builder);
         this.numStrings = numStrings;
     }
 
@@ -35,10 +31,6 @@ public class GuitarSpec extends InstrumentSpec {
         }
 
         if (this.getNumStrings() != guitarSpec.getNumStrings()) {
-            return false;
-        }
-
-        if (!(guitarSpec instanceof GuitarSpec)) {
             return false;
         }
 

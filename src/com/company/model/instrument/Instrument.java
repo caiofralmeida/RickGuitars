@@ -8,6 +8,12 @@ public abstract class Instrument {
 
     protected InstrumentSpec instrumentSpec;
 
+    public Instrument(String serialNumber, Double price, InstrumentSpec instrumentSpec) {
+        this.serialNumber = serialNumber;
+        this.price = price;
+        this.instrumentSpec = instrumentSpec;
+    }
+
     public String getSerialNumber() {
         return serialNumber;
     }
@@ -20,7 +26,7 @@ public abstract class Instrument {
         this.price = price;
     }
 
-    protected InstrumentSpec getSpec() {
+    public InstrumentSpec getSpec() {
         return instrumentSpec;
     }
 

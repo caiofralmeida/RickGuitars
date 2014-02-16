@@ -14,6 +14,14 @@ public class InstrumentSpec {
 
     protected Builder builder;
 
+    public InstrumentSpec(String model, Type type, Wood topWood, Wood backWood, Builder builder) {
+        this.model = model;
+        this.type = type;
+        this.topWood = topWood;
+        this.backWood = backWood;
+        this.builder = builder;
+    }
+
     public Builder getBuilder() {
         return builder;
     }
